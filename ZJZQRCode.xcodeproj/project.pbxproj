@@ -18,6 +18,7 @@
 		B605F1F51DF120E40034D582 /* qr_scan_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B605F1F21DF120E40034D582 /* qr_scan_line@2x.png */; };
 		B605F1F61DF120E40034D582 /* ZJZQRView.m in Sources */ = {isa = PBXBuildFile; fileRef = B605F1F41DF120E40034D582 /* ZJZQRView.m */; };
 		B605F1F91DF1210C0034D582 /* ZJZQRCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = B605F1F81DF1210C0034D582 /* ZJZQRCodeController.m */; };
+		B66B6F7A1DF56393004C20A1 /* ZJZQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = B66B6F791DF56393004C20A1 /* ZJZQRCode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		B605F1F41DF120E40034D582 /* ZJZQRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJZQRView.m; sourceTree = "<group>"; };
 		B605F1F71DF1210C0034D582 /* ZJZQRCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJZQRCodeController.h; sourceTree = "<group>"; };
 		B605F1F81DF1210C0034D582 /* ZJZQRCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJZQRCodeController.m; sourceTree = "<group>"; };
+		B66B6F781DF56393004C20A1 /* ZJZQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJZQRCode.h; sourceTree = "<group>"; };
+		B66B6F791DF56393004C20A1 /* ZJZQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJZQRCode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,8 @@
 				B605F1F21DF120E40034D582 /* qr_scan_line@2x.png */,
 				B605F1F31DF120E40034D582 /* ZJZQRView.h */,
 				B605F1F41DF120E40034D582 /* ZJZQRView.m */,
+				B66B6F781DF56393004C20A1 /* ZJZQRCode.h */,
+				B66B6F791DF56393004C20A1 /* ZJZQRCode.m */,
 			);
 			path = ZJZQRCode;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 			files = (
 				B605F1F91DF1210C0034D582 /* ZJZQRCodeController.m in Sources */,
 				B605F1C61DF11F780034D582 /* ViewController.m in Sources */,
+				B66B6F7A1DF56393004C20A1 /* ZJZQRCode.m in Sources */,
 				B605F1C31DF11F780034D582 /* AppDelegate.m in Sources */,
 				B605F1F61DF120E40034D582 /* ZJZQRView.m in Sources */,
 				B605F1C01DF11F780034D582 /* main.m in Sources */,
@@ -543,6 +549,7 @@
 				B605F1EA1DF11F780034D582 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B605F1EB1DF11F780034D582 /* Build configuration list for PBXNativeTarget "ZJZQRCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +558,7 @@
 				B605F1ED1DF11F780034D582 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B605F1EE1DF11F780034D582 /* Build configuration list for PBXNativeTarget "ZJZQRCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +567,7 @@
 				B605F1F01DF11F780034D582 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
