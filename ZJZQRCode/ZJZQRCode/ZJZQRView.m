@@ -46,11 +46,8 @@ static NSTimeInterval kQrLineanimateDuration = 0.02;
 // MARK: 文字描述
 - (void)initDescLabel
 {
-    // 主屏尺寸
-    CGSize screenSize =[UIScreen mainScreen].bounds.size;
-    
     UILabel *descL= [[UILabel alloc] init];
-    descL.frame = CGRectMake(15, screenSize.height/2 + self.transparentArea.height/2 + 15, screenSize.width - 30, 20);
+    descL.frame = CGRectMake(15, self.frame.size.height/2 + self.transparentArea.height/2 + 15, self.frame.size.width - 30, 20);
     descL.textAlignment = NSTextAlignmentCenter;
     descL.textColor = [UIColor whiteColor];
     descL.text = @"将二维码/条码放入框内，即可自动扫描";
@@ -80,8 +77,7 @@ static NSTimeInterval kQrLineanimateDuration = 0.02;
 - (void)drawRect:(CGRect)rect
 {
     // 整个二维码扫描界面的颜色
-    CGSize screenSize =[UIScreen mainScreen].bounds.size;
-    CGRect screenDrawRect =CGRectMake(0, 0, screenSize.width, screenSize.height);
+    CGRect screenDrawRect = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
     
     // 中间清空的矩形框
     CGRect clearDrawRect = CGRectMake(screenDrawRect.size.width/2 - self.transparentArea.width/2,
